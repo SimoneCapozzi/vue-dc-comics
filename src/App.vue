@@ -9,6 +9,8 @@
 
     <Footer-comp />
 
+    <VolumeDc />
+
 
   </div>
 </template>
@@ -23,6 +25,8 @@ import SubMain from '@/components/SubMain.vue'
 
 import FooterComp from '@/components/FooterComp.vue'
 
+import VolumeDc from '@/components/VolumeDc.vue'
+
 export default {
   name: 'App',
 
@@ -32,6 +36,7 @@ export default {
     MainComp,
     SubMain,
     FooterComp,
+    VolumeDc
   }
 }
 </script>
